@@ -11,6 +11,6 @@ def stock_picker(array)
             end
         }
     }
-    p [buy_date, sell_date]
+    puts "For a maximum profit of $#{profit}, buy on day #{buy_date + 1} and sell on day #{sell_date + 1}."
 end
-stock_picker([17, 3, 5, 8, 12, 13])
+stock_picker([17,3,6,9,15,8,6,1,10])
